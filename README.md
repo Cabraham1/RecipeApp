@@ -133,12 +133,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Luis Sanchez**
-
-- Github: [GitHub](https://github.com/sanieni6/)
-- Twitter: [Twitter](https://twitter.com/its_luis_sz23)
-- Linkedin:  [LinkedIn](https://www.linkedin.com/in/luissanchezz3/)
-
 🕵🏽‍♀️ **Abraham Christopher**
 
 - GitHub: [@cabraham1](https://github.com/cabraham1)
