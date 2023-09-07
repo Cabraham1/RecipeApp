@@ -1,0 +1,24 @@
+<div class="row d-flex justify-content-start">
+<%= form_with model: @food, url: foods_path, class: 'form' do |form| %>
+    <h1 class="new-recipe-title"> New Food </h1>
+    <div class="field">
+        <%= form.label :name, class:"form-label" %>
+        <%= form.text_field :name, placeholder:"name", class:"form-control", required: true %>
+    </div>
+    <div class="field">
+        <%= form.label :prepation_time, class:"form-label"%><br/>
+        <%= form.select :measurement_unit, options_for_select(['gr', 'lt', 'oz', 'units'], 'units') ,placeholder: "measurement unit", class:"form-control" %>
+    </div>
+    <div class="field">
+        <%= form.label :cooking_time, class:"form-labell"%>
+        <%= form.number_field :price,placeholder:"price", class:"form-control", required: true, step: '0.01' %>
+    </div>
+    <div class="field">
+        <%= form.label :description, class:"form-label" %>
+        <%= form.number_field :quantity, placeholder: "quantity",class:"form-control", required: true, min: 1, step: '0.01' %>
+    </div>
+    <div class="field">
+        <%= form.submit "Add Food", class:"btn btn-primary" %>
+    </div>
+    <%end%>
+</div>
