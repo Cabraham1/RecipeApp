@@ -8,25 +8,21 @@ class FoodsController < ApplicationController
   end
 
   def create
-    @food = Food.new(food_params.merge(user_id: current_user.id))
+    @food = Food.new(user_id: current_user.id, **food_params)
     if @food.save
-      flash[:notice] = 'Food created successfully!'
+      flash[:notice] = 'Food created successfully'
       redirect_to foods_path
     else
-      flash[:alert] = 'Food creation faild!'
+      flash[:alert] = 'Food creation failed'
       render :new
     end
   end
 
   def destroy
     @food = Food.find(params[:id])
-    if @food.destroy
-      flash[:notice] = 'Food deleted successfully!'
-      redirect_to request.referrer
-    else
-      flash[:alert] = 'Food deletion faild!'
-      render :index
-    end
+    @food.destroy
+
+    redirect_to request.referrer
   end
 
   def food_params

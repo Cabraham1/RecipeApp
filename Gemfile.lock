@@ -140,8 +140,6 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.2-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.2-x64-mingw-ucrt)
-      racc (~> 1.4)
     nokogiri (1.15.2-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.15.2-x86_64-linux)
@@ -152,7 +150,6 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.3)
-    pg (1.5.3-x64-mingw-ucrt)
     pg (1.5.3-x64-mingw32)
     public_suffix (5.0.1)
     puma (5.6.6)
@@ -257,7 +254,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
-  x64-mingw-ucrt
   x64-mingw32
   x86_64-linux
 
@@ -283,7 +279,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.2.1p31
 
 BUNDLED WITH
    2.4.13
