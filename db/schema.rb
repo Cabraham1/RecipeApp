@@ -44,8 +44,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_29_005024) do
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.integer "total_food_items"
     t.decimal "total_price", precision: 10, scale: 2
+=======
+>>>>>>> Dev
     t.index ["user_id"], name: "index_recipes_on_user_id"
   end
 

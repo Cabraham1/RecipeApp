@@ -132,7 +132,6 @@ To run tests, run the following command:
 ```
 
 ## 👥 Authors <a name="authors"></a>
-
 🕵🏽‍♀️ **Abraham Christopher**
 
 - GitHub: [@cabraham1](https://github.com/cabraham1)
