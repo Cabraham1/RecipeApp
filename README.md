@@ -138,11 +138,11 @@ To run tests, run the following command:
 - Twitter: [@_cabraham](https://twitter.com/_cabraham)
 - LinkedIn: [Abraham Christopher](https://linkedin.com/in/abrahamchrisotpher)
 
-🕵🏽‍♀️ **Yoseph**
+🕵🏽‍♀️ **Yoseph Addisu**
 
-- GitHub: [@cabraham1](https://github.com/yosaddis)
-- Twitter: [@_cabraham](https://twitter.com/yosaddis)
-- LinkedIn: [Abraham Christopher](https://linkedin.com/in/yosaddis)
+- GitHub: [@yosaddis](https://github.com/yosaddis)
+- Twitter: [@yosaddis](https://twitter.com/yosaddis)
+- LinkedIn: [Yoseph Addisu](https://linkedin.com/in/yosaddis)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
