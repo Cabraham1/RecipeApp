@@ -1,5 +1,5 @@
-![](https://img.shields.io/badge/sanieni6-blue)
 ![](https://img.shields.io/badge/Cabraham1-green)
+![](https://img.shields.io/badge/yosaddis-blue)
 <a name="readme-top"></a>
 
 <div align="center">
@@ -99,7 +99,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:NicolasAndrehh/RecipeApp-RoR-group-project.git
+  git clone git@github.com:cabraham1/RecipeApp-RoR-group-project.git
   cd RecipeApp-RoR-group-project
 ```
 
@@ -132,12 +132,17 @@ To run tests, run the following command:
 ```
 
 ## 👥 Authors <a name="authors"></a>
-
 🕵🏽‍♀️ **Abraham Christopher**
 
 - GitHub: [@cabraham1](https://github.com/cabraham1)
 - Twitter: [@_cabraham](https://twitter.com/_cabraham)
 - LinkedIn: [Abraham Christopher](https://linkedin.com/in/abrahamchrisotpher)
+
+🕵🏽‍♀️ **Yoseph Addisu**
+
+- GitHub: [@yosaddis](https://github.com/yosaddis)
+- Twitter: [@yosaddis](https://twitter.com/yosaddis)
+- LinkedIn: [Yoseph Addisu](https://linkedin.com/in/yosaddis)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
